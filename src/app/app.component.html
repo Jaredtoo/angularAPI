@@ -1,0 +1,10 @@
+<div class="container-fluid">
+  <div class="card" style="width: 18rem;" *ngFor="let person of people_list">
+  
+    <ul class="list-group list-group-flush" *ngFor="let someone of person">
+      <li class="list-group-item">{{someone.name}}</li>
+      <li class="list-group-item">{{someone.birth_year}}</li>
+      <li class="list-group-item">{{someone.mass}}</li>
+    </ul>
+  </div>
+</div>
